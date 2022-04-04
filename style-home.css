@@ -1,0 +1,76 @@
+/* Corpo do Site */
+body{
+
+}
+
+/* Banner */
+#banner {
+	width: 100%;
+}
+
+/* Div Principal */
+.principal{
+	background: #cccccc;
+	padding: 30px;
+}
+
+/* Título Principal */
+.titulo-principal{
+	padding-left: 20px;
+}
+
+/* Título "Sobre" */
+.titulo-centralizado{
+	text-align: center;
+}
+
+/* Parágrafos */
+p {
+	text-align: center;
+}
+
+/* Missão */
+#missao {
+	font-size: 25px;
+}
+
+/* Frase ded impacto */
+em strong {
+	color: #FF0000;
+}
+
+/* Itens dos benefícios */
+.itens{
+	font-style: italic;
+}
+
+/* Beneficios */
+.beneficios {
+	background: white;
+	padding: 20px;
+}
+
+/* Lista de itens */
+ul {
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	margin-right: 15%;
+}
+
+/* Imagem do benefício */
+.imagembeneficios {
+	width: 50%;
+}
+
+footer {
+    text-align: center;
+    background: url("bg.jpg");
+    padding: 40px 0;
+}
+
+.copyright {
+    color: white;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
