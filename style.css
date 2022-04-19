@@ -206,9 +206,11 @@ th, td {
 }
 
 .utensilios {
-    width: 110px;
+    width: calc(20% - 10px);
     float: left;
     margin: 0 20px 20px 0;
+    box-shadow: 5px 5px 10px rgba(228, 208, 27, 0.938);
+    border-radius: 10%;
 }
 
 .conteudo-beneficios {
@@ -226,15 +228,30 @@ th, td {
     line-height: 1.5;
 }
 
+.itens::before {
+    content: '\2605';
+}
+
 .itens:first-child {
     font-weight: bold;
 }
 
 .imagem-beneficios {
-    width: 60%;;
+    width: 60%;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 5px 0 black;
+}
+
+.imagem-beneficios:hover {
+    opacity: 0.7;
 }
 
 .video {
     width: 560px;
     margin: 2em auto;
+}
+
+@media screen and (max-width: 480px){
+
 }
