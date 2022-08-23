@@ -95,13 +95,10 @@ footer {
     font-size: 13px;
     margin: 20px 0 0;
 }
-
-main {
-
-}
+/* Página de contato */
 
 form {
-    margin: 40px 0;
+    margin: 30px 40px;
 }
 
 form label, form legend {
@@ -136,11 +133,11 @@ form label, form legend {
 
 .enviar:hover {
     background: darkorange;   
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 table {
-    margin: 20px 0 40px;
+    margin: 20px 40px 40px;
 }
 
 thead {
@@ -253,5 +250,34 @@ th, td {
 }
 
 @media screen and (max-width: 480px){
+    /* Página principal */
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+        width: auto;
+    }
+    h1{
+        text-align: center;
+    }
+    nav {
+        position: static;
+    }
 
+    .lista-beneficios, .imagem-beneficios {
+        width: 100%;
+    }
+
+    /* Página Produtos */
+    .produtos{
+        display:flex;
+        flex-flow: column wrap;
+        width: 100%;
+    }
+    .produtos li{
+        width: auto;
+    }
+
+
+    /* Página Contato */
+    form{
+        width: auto;
+    }
 }
